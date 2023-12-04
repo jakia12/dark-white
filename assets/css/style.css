@@ -14,6 +14,21 @@ WE WILL RELEASE FUTURE UPDATES SO IN ORDER TO NOT OVERWRITE YOUR STYLES IT'S BET
 Custom color and background color class palette
 */
 
+/***********google font**********/
+@import url("https://fonts.googleapis.com/css2?family=Fragment+Mono&display=swap");
+
+/*********font custom*************/
+@font-face {
+  font-family: "Alien Spaceship"; /* Choose a unique name for your font */
+  src: url("/font/AlienSpaceship.otf") format("woff2"),
+    /* Modern Browsers */ url("/font/AlienSpaceship.otf") format("woff");
+
+  /* Older Browsers */ /* You can add more file formats here if needed (e.g., .ttf, .eot) */
+}
+
+body {
+  font-family: "Alien Spaceship", sans-serif;
+}
 @media (min-width: 1024px) {
   body {
     width: 100%;
@@ -689,4 +704,10 @@ img.road_img {
 .road_card ul li {
   font-family: "Fishes Friends", sans-serif;
   margin-left: 12px;
+}
+
+.partner-member img,
+.partner-member_img {
+  width: 269px;
+  margin: auto;
 }
